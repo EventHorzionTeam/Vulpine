@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, GlassWater } from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +17,8 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   // Close mobile menu when changing routes
@@ -27,39 +27,39 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <header 
+    <header
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-amber-950/95 backdrop-blur-md py-3 shadow-md' 
-          : 'bg-transparent py-6'
+        isScrolled
+          ? "bg-amber-950/95 backdrop-blur-md py-3 shadow-md"
+          : "bg-transparent py-6"
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <GlassWater className="h-8 w-8 text-amber-400" />
-            <span className="text-xl font-serif font-bold tracking-tight text-white">
-              Vulpine Bar
+            {/* <GlassWater className="h-8 w-8 text-amber-400" /> */}
+            <span className="text-[1.5rem] font-montserrat font-bold tracking-tight text-white">
+              V U L P I N E
             </span>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {[
-              { name: 'Home', path: '/' },
-              { name: 'Services', path: '/services' },
-              { name: 'About', path: '/about' },
-              { name: 'Gallery', path: '/gallery' },
-              { name: 'Contact', path: '/contact' },
+              { name: "Home", path: "/" },
+              { name: "Services", path: "/services" },
+              { name: "About", path: "/about" },
+              { name: "Gallery", path: "/gallery" },
+              { name: "Contact", path: "/contact" },
             ].map((item) => (
               <Link
                 key={item.name}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-amber-400 ${
+                className={`text-sm font-medium transition-colors hover:text-amber-100 ${
                   location.pathname === item.path
-                    ? 'text-amber-400'
-                    : 'text-white'
+                    ? "text-amber-100"
+                    : "text-white"
                 }`}
               >
                 {item.name}
@@ -89,19 +89,19 @@ const Navbar = () => {
         <nav className="md:hidden bg-amber-950 px-4 py-4 mt-1">
           <div className="flex flex-col space-y-4">
             {[
-              { name: 'Home', path: '/' },
-              { name: 'Services', path: '/services' },
-              { name: 'About', path: '/about' },
-              { name: 'Gallery', path: '/gallery' },
-              { name: 'Contact', path: '/contact' },
+              { name: "Home", path: "/" },
+              { name: "Services", path: "/services" },
+              { name: "About", path: "/about" },
+              { name: "Gallery", path: "/gallery" },
+              { name: "Contact", path: "/contact" },
             ].map((item) => (
               <Link
                 key={item.name}
                 to={item.path}
                 className={`text-sm font-medium px-3 py-2 rounded-md transition-colors ${
                   location.pathname === item.path
-                    ? 'bg-amber-900 text-amber-400'
-                    : 'text-white hover:bg-amber-900/50'
+                    ? "bg-amber-900 text-amber-400"
+                    : "text-white hover:bg-amber-900/50"
                 }`}
               >
                 {item.name}

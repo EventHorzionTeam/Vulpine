@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Instagram, Facebook, Mail, Phone, GlassWater } from 'lucide-react';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Instagram, Facebook, Mail, Phone } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,38 +11,49 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand Section */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
+            <div className="flex justify-start gap-2">
+              <span className="font-montserrat text-[1.25rem] text-white">
+                V U L P I N E
+              </span>
+              {/* <img
+                src={VulpineLogo}
+                alt="Vulpine Logo"
+                width={250}
+                height={250}
+              /> */}
+            </div>
+            {/* <div className="flex items-center gap-2">
               <GlassWater className="h-8 w-8 text-amber-400" />
               <span className="text-xl font-serif font-bold tracking-tight text-white">
                 Vulpine Bar
               </span>
-            </div>
+            </div> */}
             <p className="text-sm text-amber-200 max-w-xs">
-              Elevating events with crafted cocktails and professional service. 
+              Elevating events with crafted cocktails and professional service.
               Your premier choice for unforgettable bartending experiences.
             </p>
             <div className="flex space-x-4 pt-2">
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
+              <a
+                href="https://instagram.com"
+                target="_blank"
                 rel="noopener noreferrer"
-                className="text-amber-300 hover:text-amber-400 transition-colors"
+                className="text-white hover:text-amber-400 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram size={20} />
               </a>
-              <a 
-                href="https://facebook.com" 
-                target="_blank" 
+              <a
+                href="https://facebook.com"
+                target="_blank"
                 rel="noopener noreferrer"
-                className="text-amber-300 hover:text-amber-400 transition-colors"
+                className="text-white hover:text-amber-400 transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook size={20} />
               </a>
-              <a 
-                href="mailto:contact@vulpine.bar" 
-                className="text-amber-300 hover:text-amber-400 transition-colors"
+              <a
+                href="mailto:contact@vulpine.bar"
+                className="text-white hover:text-amber-400 transition-colors"
                 aria-label="Email"
               >
                 <Mail size={20} />
@@ -55,16 +66,16 @@ const Footer = () => {
             <h3 className="text-white font-medium text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
               {[
-                { name: 'Home', path: '/' },
-                { name: 'Services', path: '/services' },
-                { name: 'About Us', path: '/about' },
-                { name: 'Gallery', path: '/gallery' },
-                { name: 'Contact', path: '/contact' },
-                { name: 'Book Now', path: '/contact' },
+                { name: "Home", path: "/" },
+                { name: "Services", path: "/services" },
+                { name: "About Us", path: "/about" },
+                { name: "Gallery", path: "/gallery" },
+                { name: "Contact", path: "/contact" },
+                { name: "Book Now", path: "/contact" },
               ].map((link) => (
                 <li key={link.name}>
-                  <Link 
-                    to={link.path} 
+                  <Link
+                    to={link.path}
                     className="text-amber-200 hover:text-amber-400 transition-colors"
                   >
                     {link.name}
@@ -84,7 +95,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={20} className="text-amber-400 shrink-0 mt-1" />
-                <a 
+                <a
                   href="mailto:contact@vulpine.bar"
                   className="hover:text-amber-400 transition-colors"
                 >
@@ -102,7 +113,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-amber-900 mt-12 pt-8 text-center text-amber-300 text-sm">
+        <div className="border-t border-amber-900 mt-12 pt-8 text-center text-white text-sm">
           <p>© {currentYear} Vulpine Bar. All rights reserved.</p>
         </div>
       </div>
