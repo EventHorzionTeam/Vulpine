@@ -68,7 +68,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Services Preview */}
+      {/* Services Preview 
       <section className="py-20 bg-amber-950">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -147,6 +147,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+      */}
 
       {/* Why Choose Us */}
       <section className="py-20 bg-amber-50">
@@ -205,7 +206,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Testimonials 
       <section className="py-20 bg-amber-950 text-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -270,6 +271,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+      */}
 
       {/* CTA Section */}
       <section className="py-20 bg-amber-50">
