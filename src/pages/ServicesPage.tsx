@@ -328,29 +328,24 @@ const ServicesPage = () => {
           <div className="max-w-3xl mx-auto">
             {[
               {
-                question: "How far in advance should I book your services?",
+                question: "How can I book your services?",
                 answer:
-                  "We recommend booking at least 4-6 weeks in advance for standard events, and 2-3 months for peak season events (May-September) or holidays. For large events, earlier is always better.",
+                  "Booking is easy! Just send us your event details (date, location, number of guests, and type of event), and we’ll get back to you with availability and a personalized offer. Once everything’s confirmed, we’ll guide you through the simple booking process.",
               },
               {
-                question: "Do you provide the alcohol or should I purchase it?",
+                question: "Do you offer both alcoholic and non-alcoholic drinks?",
                 answer:
-                  "We can work either way. We can provide all alcohol, mixers, and garnishes as part of your package, or we can work with client-provided alcohol. If you choose to provide your own, we'll give you a detailed shopping list based on your guest count and menu.",
+                  "Yes, we offer a wide range of both alcoholic and non-alcoholic drinks. Whether you’re looking for classic cocktails, mocktails, or custom signature drinks, we’ve got you covered. Let us know your preferences or event theme, and we’ll tailor the menu for you!",
               },
               {
-                question: "What areas do you serve?",
+                question: "What services do you offer?",
                 answer:
-                  "We primarily serve the greater metropolitan area and surrounding counties. We're also available for travel with additional travel fees for locations beyond our standard service area.",
+                  "We offer professional bartending services for events of all sizes, including private parties, weddings, birthdays, and corporate events. We can also create custom drink menus and provide premium bar setups. Let us know what kind of event you’re planning, and we’ll share more details!",
               },
               {
-                question: "Can you create custom cocktails for my event?",
+                question: "Can I get price information?",
                 answer:
-                  "Absolutely! Custom cocktail creation is one of our specialties. We can design signature drinks that match your event theme, color scheme, or personal preferences.",
-              },
-              {
-                question: "What is your cancellation policy?",
-                answer:
-                  "We require a 50% deposit to secure your date. This deposit is refundable up to 30 days before your event. Cancellations within 30 days of the event are eligible for a partial refund or credit toward a future event, depending on circumstances.",
+                  "Hi! Thanks for reaching out. We’d be happy to share our pricing details with you. Could you please tell us a bit about your event? (Date, location, number of guests, and preferred services). This will help us give you the most accurate quote!",
               },
             ].map((faq, index) => (
               <details

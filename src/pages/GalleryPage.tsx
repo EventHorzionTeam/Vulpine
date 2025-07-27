@@ -10,101 +10,48 @@ const GalleryPage = () => {
   const galleryImages = {
     cocktails: [
       {
-        src: "https://images.pexels.com/photos/2531187/pexels-photo-2531187.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        src: "https://vulpine-422382743.imgix.net/IMG_0541.JPG",
         alt: "Colorful cocktail with fresh berries",
-        caption: "Berry Fusion Signature Cocktail",
       },
       {
-        src: "https://images.pexels.com/photos/2795026/pexels-photo-2795026.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Classic Old Fashioned cocktail",
-        caption: "Classic Old Fashioned",
+        src: "https://vulpine-422382743.imgix.net/IMG_0540.JPG",
+        alt: "Colorful cocktail with fresh berries",
       },
       {
-        src: "https://images.pexels.com/photos/2663974/pexels-photo-2663974.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Moscow Mule in copper mug",
-        caption: "Copper Mule Variation",
+        src: "https://vulpine-422382743.imgix.net/IMG_0542.JPG",
+        alt: "Colorful cocktail with fresh berries",
       },
       {
-        src: "https://images.pexels.com/photos/602750/pexels-photo-602750.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Martini with olive garnish",
-        caption: "Perfect Martini",
+        src: "https://vulpine-422382743.imgix.net/IMG_0510.HEIC",
+        alt: "Colorful cocktail with fresh berries",
       },
       {
-        src: "https://images.pexels.com/photos/1304540/pexels-photo-1304540.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Tropical cocktail with pineapple",
-        caption: "Tropical Paradise",
+        src: "https://vulpine-422382743.imgix.net/IMG_0041.HEIC",
+        alt: "Colorful cocktail with fresh berries",
       },
       {
-        src: "https://images.pexels.com/photos/2480828/pexels-photo-2480828.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Frozen margarita with salt rim",
-        caption: "Signature Margarita",
+        src: "https://vulpine-422382743.imgix.net/IMG_0726.HEIC",
+        alt: "Colorful cocktail with fresh berries",
       },
     ],
     events: [
       {
-        src: "https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Elegant wedding reception bar",
-        caption: "Johnson Wedding Reception",
+        src: "https://vulpine-422382743.imgix.net/IMG_1033.JPG",
+        alt: "Colorful cocktail with fresh berries",
       },
       {
-        src: "https://images.pexels.com/photos/1267360/pexels-photo-1267360.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Corporate holiday party",
-        caption: "Nexus Corp Annual Gala",
-      },
-      {
-        src: "https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Garden party bar setup",
-        caption: "Summer Garden Soirée",
-      },
-      {
-        src: "https://images.pexels.com/photos/3201922/pexels-photo-3201922.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Birthday celebration bar",
-        caption: "40th Birthday Celebration",
-      },
-      {
-        src: "https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Outdoor wedding bar",
-        caption: "Miller-Thompson Wedding",
+        src: "https://vulpine-422382743.imgix.net/IMG_1032.JPG",
+        alt: "Colorful cocktail with fresh berries",
       },
     ],
     setup: [
       {
-        src: "https://images.pexels.com/photos/1269025/pexels-photo-1269025.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Elegant mobile bar setup",
-        caption: "Premium Mobile Bar Setup",
-      },
-      {
-        src: "https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Bar tools and spirits display",
-        caption: "Craft Cocktail Station",
-      },
-      {
-        src: "https://images.pexels.com/photos/2531190/pexels-photo-2531190.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Bartender tools and preparation",
-        caption: "Bartender Workstation",
-      },
-      {
-        src: "https://images.pexels.com/photos/1400255/pexels-photo-1400255.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Rustic outdoor bar setup",
-        caption: "Rustic Farmhouse Wedding Bar",
+        src: "https://vulpine-422382743.imgix.net/IMG_0731.HEIC",
+        alt: "Colorful cocktail with fresh berries",
       },
     ],
     team: [
-      {
-        src: "https://images.pexels.com/photos/4667030/pexels-photo-4667030.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Bartender preparing drinks",
-        caption: "Our Team in Action",
-      },
-      {
-        src: "https://images.pexels.com/photos/4255484/pexels-photo-4255484.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Bartender mixing cocktail",
-        caption: "Mixology Expertise",
-      },
-      {
-        src: "https://images.pexels.com/photos/5947019/pexels-photo-5947019.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        alt: "Flair bartending performance",
-        caption: "Flair Bartending Show",
-      },
+
     ],
   };
 
@@ -191,7 +138,6 @@ const GalleryPage = () => {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-amber-950 via-transparent to-transparent opacity-0 group-hover:opacity-80 transition-opacity duration-300"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                  <p className="font-medium">{image.caption}</p>
                 </div>
               </div>
             ))}

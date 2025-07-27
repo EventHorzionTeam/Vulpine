@@ -68,7 +68,6 @@ const Footer = () => {
               {[
                 { name: "Home", path: "/" },
                 { name: "Services", path: "/services" },
-                { name: "About Us", path: "/about" },
                 { name: "Gallery", path: "/gallery" },
                 { name: "Contact", path: "/contact" },
                 { name: "Book Now", path: "/contact" },
@@ -91,7 +90,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <Phone size={20} className="text-amber-400 shrink-0 mt-1" />
-                <span>+1 (555) 123-4567</span>
+                <span>+90 541 824 24 69</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={20} className="text-amber-400 shrink-0 mt-1" />
@@ -99,7 +98,7 @@ const Footer = () => {
                   href="mailto:contact@vulpine.bar"
                   className="hover:text-amber-400 transition-colors"
                 >
-                  contact@vulpine.bar
+                  vulpinebartendingteam@gmail.com
                 </a>
               </li>
             </ul>
