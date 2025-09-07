@@ -16,7 +16,6 @@ const ServicesPage = () => {
   const packages = [
     {
       title: "Essential",
-      price: "Starting at $500",
       description: "Perfect for intimate gatherings and small parties",
       features: [
         "1 professional bartender",
@@ -31,7 +30,6 @@ const ServicesPage = () => {
     },
     {
       title: "Premium",
-      price: "Starting at $900",
       description: "Our most popular package for medium-sized events",
       features: [
         "2 professional bartenders",
@@ -48,7 +46,6 @@ const ServicesPage = () => {
     },
     {
       title: "Luxury",
-      price: "Starting at $1,500",
       description: "The ultimate bartending experience for large events",
       features: [
         "3+ professional bartenders",
@@ -155,7 +152,7 @@ const ServicesPage = () => {
                       pkg.recommended
                         ? "bg-amber-100 text-amber-600"
                         : "bg-amber-50 text-amber-700"
-                    }`}
+                    }`} 
                   >
                     {pkg.icon}
                   </div>
@@ -163,7 +160,6 @@ const ServicesPage = () => {
                     {pkg.title}
                   </h3>
                   <div className="text-xl font-semibold text-amber-700 mb-4">
-                    {pkg.price}
                   </div>
                   <p className="text-amber-900/70 mb-6">{pkg.description}</p>
                   <div className="mb-6">

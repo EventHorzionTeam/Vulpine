@@ -22,15 +22,7 @@ const GalleryPage = () => {
         alt: "Colorful cocktail with fresh berries",
       },
       {
-        src: "https://vulpine-422382743.imgix.net/IMG_0510.HEIC",
-        alt: "Colorful cocktail with fresh berries",
-      },
-      {
-        src: "https://vulpine-422382743.imgix.net/IMG_0041.HEIC",
-        alt: "Colorful cocktail with fresh berries",
-      },
-      {
-        src: "https://vulpine-422382743.imgix.net/IMG_0726.HEIC",
+        src: "/IMG_0726 (2).png",
         alt: "Colorful cocktail with fresh berries",
       },
     ],
@@ -45,13 +37,29 @@ const GalleryPage = () => {
       },
     ],
     setup: [
+
       {
-        src: "https://vulpine-422382743.imgix.net/IMG_0731.HEIC",
+        src: "IMG_1286 (1).png",
+        alt: "Colorful cocktail with fresh berries",
+      },
+      {
+        src: "IMG_0730.png",
         alt: "Colorful cocktail with fresh berries",
       },
     ],
     team: [
-
+      {
+        src: "IMG_1355.png",
+        alt: "Colorful cocktail with fresh berries",
+      },
+      {
+        src: "IMG_1368.png",
+        alt: "Colorful cocktail with fresh berries",
+      },
+      {
+        src: "IMG_1387.png",
+        alt: "Colorful cocktail with fresh berries",
+      },
     ],
   };
 

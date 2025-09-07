@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import {
   Mail,
   Phone,
-  MapPin,
   Calendar,
   Users,
   Clock,
@@ -94,7 +93,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-medium text-amber-950 mb-1">Phone</h3>
-                    <p className="text-amber-900/80">+1 (555) 123-4567</p>
+                    <p className="text-amber-900/80">+90 541 824 24 69</p>
                   </div>
                 </div>
 
@@ -104,25 +103,11 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-medium text-amber-950 mb-1">Email</h3>
-                    <p className="text-amber-900/80">contact@vulpine.bar</p>
+                    <p className="text-amber-900/80">vulpinebartendingteam@gmail.com</p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="bg-amber-100 p-3 rounded-full text-amber-700">
-                    <MapPin size={20} />
-                  </div>
-                  <div>
-                    <h3 className="font-medium text-amber-950 mb-1">
-                      Service Area
-                    </h3>
-                    <p className="text-amber-900/80">
-                      Greater Metropolitan Area
-                      <br />
-                      Available for travel with additional fees
-                    </p>
-                  </div>
-                </div>
+
 
                 <div className="flex items-start gap-4">
                   <div className="bg-amber-100 p-3 rounded-full text-amber-700">
@@ -202,7 +187,7 @@ const ContactPage = () => {
                           type="tel"
                           id="phone"
                           name="phone"
-                          value={formData.phone}
+                          value="{formData.phone}"
                           onChange={handleChange}
                           required
                           className="w-full px-4 py-3 rounded-md border border-amber-200 focus:border-amber-500 focus:ring focus:ring-amber-200 focus:ring-opacity-50"
