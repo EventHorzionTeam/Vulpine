@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, Mail, Phone } from "lucide-react";
+import { Instagram,Youtube, Facebook, Mail, Phone } from "lucide-react";
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -43,14 +44,15 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-amber-400 transition-colors"
-                aria-label="Facebook"
+                aria-label="Youtube"
               >
-                <Facebook size={20} />
+                <Youtube size={22} />
               </a>
+
               <a
                 href="mailto:contact@vulpine.bar"
                 className="text-white hover:text-amber-400 transition-colors"
